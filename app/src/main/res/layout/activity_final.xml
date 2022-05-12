@@ -8,8 +8,50 @@
 
     <CalendarView
         android:id="@+id/calendarView"
+        style="@android:style/Widget.DeviceDefault.CalendarView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="196dp" />
+        android:layout_marginEnd="28dp"
+        android:background="#91D894"
+        android:backgroundTint="#91D894"
+        android:focusedMonthDateColor="#0B0A0A"
+        android:scrollbarDefaultDelayBeforeFade="400"
+        android:selectedWeekBackgroundColor="#91D894"
+        android:unfocusedMonthDateColor="#000000"
+        android:weekNumberColor="#050505"
+        android:weekSeparatorLineColor="#070606"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="118dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="508dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icono"
+        tools:src="@tools:sample/avatars"
+        tools:srcCompat="@drawable/icono" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:fontFamily="@font/allerta"
+        android:foregroundTint="#4CAF50"
+        android:shadowColor="#090808"
+        android:text="¡¡Welcome!!"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
